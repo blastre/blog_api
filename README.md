@@ -44,7 +44,7 @@ A simple RESTful API for managing blog posts, built with FastAPI in Python. This
 ## Installation
 
 1. Clone the repository:
-   - `git clone https://github.com/YOUR_GITHUB_USERNAME/blog_api.git`
+   - `git clone https://github.com/blastre/blog_api.git`
    - `cd blog_api`
 
 2. Create a virtual environment:
