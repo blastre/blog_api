@@ -16,3 +16,10 @@ class Comment(Base):
     blog_id = Column(Integer, ForeignKey("blogs.id"))
     text = Column(String)
     blog = relationship("Blog", back_populates="comments")
+
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(Integer, primary_key=True, index=True)
+    username = Column(String, unique=True, index=True)
+    hashed_password = Column(String)
